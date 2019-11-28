@@ -1,4 +1,4 @@
 +++
-title = "About Syna"
-date = "2017-10-05"
+title = "About Enseada"
+date = "2019-11-28"
 +++

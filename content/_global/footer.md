@@ -1,21 +1,21 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2019-11-28"
 weight = 1200
-#background = ""
+background = "light"
 
-menu_title = "Link Title"
+menu_title = "Resources"
 
 [asset]
-  title = "Logo Title"
-  image = "logo.svg"
+  title = "Enseada"
+  image = "enseada-logo.png"
   text = "Logo Subtext"
   url = "#"
 +++
 
-#### Description Title
+#### Disclaimer
 
-Project description such as:
-Open source theme for your next project
-Provided by Okkur Labs
+This project is in its very infancy.
+Features are missings and bugs are frequent. Feedback and contributions are much
+appreciated.

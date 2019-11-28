@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Okkur - Syna"
+title = "Enseada"
 theme = "syna"
 enableGitInfo = true
 version = "0.15.2"
@@ -17,8 +17,8 @@ date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "Enseada"
+  description = "A Cloud native multi-package registry"
 
   [params.style]
     #background = "secondary"
@@ -65,47 +65,30 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.main]]
   url = "/about"
-  name = "About Us"
+  name = "About"
   weight = 20
-
-[[menu.main]]
-  url = "#contact"
-  name = "Contact"
-  weight = 30
 
 [[menu.footer]]
   url = "#"
-  name = "Link"
+  name = "Docs"
   weight = 10
 
 [[menu.footer]]
-  url = "#"
-  name = "Long Link"
-  weight = 30
-
-[[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
+  url = "https://github.com/enseadaio/enseada"
+  name = "Source Code"
   weight = 30
 
 [[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
+  url = "https://opensource.org/licenses/isc-license.txt"
+  name = "ISC licensed"
   weight = 10
-
 [[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
-
-[[menu.footer_social]]
+  url = "https://www.vecteezy.com/"
+  name = "Logo by Vecteezy"
   weight = 20
-  name = "facebook"
-  pre = "fab fa-facebook-f"
-  url = "#"
 
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "#"
+# [[menu.footer_social]]
+#   weight = 20
+#   name = "twitter"
+#   pre = "fab fa-twitter"
+#   url = "#"

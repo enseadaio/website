@@ -1,21 +1,18 @@
 +++
 fragment = "content"
 #disabled = true
-date = "2017-10-05"
+date = "2019-11-28"
 weight = 100
 #background = ""
 
-title = "About Syna"
+title = "About Enseada"
 #subtitle = ""
 +++
 
-Open Source Theme from Okkur for your next project.
+A Cloud native multi-package registry.
 
-Syna is based on the awesome work by digitalcraftsman with his Hugo Agency Theme.
-
-The Hugo Agency Theme was based on the work of David Miller with his Startupbootstrap Agency Theme.
-
-**Provided with <3 by Okkur Labs**
+Enseada is a modern, fast and scalable package registry, designed from the ground up
+to run in elastic, container-based environment and to be highly available and distributed.
 
 ---
 
