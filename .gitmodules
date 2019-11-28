@@ -1,3 +1,7 @@
 [submodule "themes/syna"]
 	path = themes/syna
 	url = https://git.okkur.org/syna
+[submodule "public"]
+	path = public
+	url = git@github.com:enseadaio/enseadaio.github.io.git
+	branch = master
