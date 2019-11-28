@@ -12,7 +12,7 @@ title = "About Enseada"
 A Cloud native multi-package registry.
 
 Enseada is a modern, fast and scalable package registry, designed from the ground up
-to run in elastic, container-based environment and to be highly available and distributed.
+to run in elastic, container-based environments and to be highly available and distributed.
 
 ---
 
