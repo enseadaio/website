@@ -1,0 +1,32 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "secondary" }}
+<section id="{{ $name }}">
+  <div class="overlay container-fluid
+    {{- printf " bg-%s" $bg -}}
+  ">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-center
+        {{- if eq $bg "dark" -}}
+          {{- printf " text-%s" "light" -}}
+        {{- else -}}
+          {{- printf " text-%s" "dark" -}}
+        {{- end -}}
+      ">
+        <h4>Multiple registries</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <h5>Enseada is built to host multiple package formats</h5>
+        <div style="font-size: 1.3rem;">
+          <a target="_blank" href="/about#supported-package-repositories" class="badge badge-pill badge-success">Maven</a>
+          <a target="_blank" href="/about#supported-package-repositories" class="badge badge-pill badge-warning">NPM</a>
+          <a target="_blank" href="/about#supported-package-repositories" class="badge badge-pill badge-info">Docker</a>
+          <a target="_blank" href="/about#supported-package-repositories" class="badge badge-pill badge-danger">RubyGems</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

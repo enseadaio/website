@@ -1,0 +1,40 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "secondary" }}
+<section id="{{ $name }}">
+  <div class="overlay container-fluid
+    {{- printf " bg-%s" $bg -}}
+  ">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-center
+        {{- if eq $bg "dark" -}}
+          {{- printf " text-%s" "light" -}}
+        {{- else -}}
+          {{- printf " text-%s" "dark" -}}
+        {{- end -}}
+      ">
+        <h4>Built for the Cloud</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <h5>Enseada is built on distributed technologies to achieve high availability and easy horizontal scaling</h5>
+        <p>
+          Built on top of the <a target="_blank" href="https://www.erlang.org">Erlang</a> runtime
+          and <a target="_blank" href="https://couchdb.apache.org">CouchDB</a>, Enseada is natively distributed and fault-tolerant, reaching high 
+          degrees of reliability and security. The storage engine is compatible with many object storage providers to efficiently store your 
+          packages in the Cloud.
+        </p>
+      </div>
+    </div>
+    <div class="col text-center">
+        <h5>Container native</h5>
+        <p>
+          Enseada is designed to be run in containers, and plays nicely with orchestration tools such as Kubernetes and Swarm.<br />
+          Check out the <a target="_blank" href="https://hub.docker.com/r/enseada/enseada">official Docker image</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
