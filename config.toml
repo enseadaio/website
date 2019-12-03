@@ -68,8 +68,13 @@ lastmod = ["lastmod", ":git", "date"]
   name = "About"
   weight = 20
 
+[[menu.main]]
+  url = "https://docs.enseada.io"
+  name = "Docs"
+  weight = 30
+
 [[menu.footer]]
-  url = "#"
+  url = "https://docs.enseada.io"
   name = "Docs"
   weight = 10
 
