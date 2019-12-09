@@ -12,7 +12,7 @@ git add -A
 git commit -m 'deploy'
 
 echo "deploying..."
-git push -f git@github.com:enseadaio/enseadaio.github.io.git master
+git push origin HEAD:master
 
 echo "done!"
 cd -
