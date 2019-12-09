@@ -84,8 +84,8 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 30
 
 [[menu.copyright_footer]]
-  url = "https://opensource.org/licenses/isc-license.txt"
-  name = "ISC licensed"
+  url = "https://opensource.org/licenses/MPL-2.0"
+  name = "MPL 2.0 licensed"
   weight = 10
 [[menu.copyright_footer]]
   url = "https://www.vecteezy.com/"
