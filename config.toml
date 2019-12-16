@@ -97,3 +97,6 @@ lastmod = ["lastmod", ":git", "date"]
 #   name = "twitter"
 #   pre = "fab fa-twitter"
 #   url = "#"
+
+[markup.goldmark.renderer]
+unsafe= true
