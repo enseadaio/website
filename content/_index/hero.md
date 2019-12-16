@@ -29,6 +29,6 @@ subtitle = "A Cloud native multi-package registry"
 
 [[buttons]]
   text = "Documentation"
-  url = "#"
+  url = "https://docs.enseada.io"
   color = "success"
 +++
