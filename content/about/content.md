@@ -32,11 +32,11 @@ Security is a priority concern, so an advanced policy engine provides the capabi
 
 ## Management API
 
-A set of [Twirp](https://twitchtv.github.io/twirp) APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](#) for more information.
+A set of [Twirp](https://twitchtv.github.io/twirp) APIs allows to programmatically interact with Enseada and its resources. Check the [documentation](https://docs.enseada.io/developers/apis.html) for more information.
 
 ## Management UI
 
-The same set of functionalities exposed in the [API](#management-api) is available as a built-in web GUI. Check the [documentation](#) for more information.
+The same set of functionalities exposed in the [API](#management-api) is available as a built-in web GUI. Check the [documentation](https://docs.enseada.io/users/ui.html) for more information.
 
 ## Supported package repositories
 
