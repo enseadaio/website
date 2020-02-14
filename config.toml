@@ -87,16 +87,24 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://opensource.org/licenses/MPL-2.0"
   name = "MPL 2.0 licensed"
   weight = 10
-[[menu.copyright_footer]]
-  url = "https://www.vecteezy.com/"
-  name = "Logo by Vecteezy"
-  weight = 20
 
-# [[menu.footer_social]]
-#   weight = 20
-#   name = "twitter"
-#   pre = "fab fa-twitter"
-#   url = "#"
+[[menu.footer_social]]
+  weight = 10
+  name = "github"
+  pre = "fab fa-github"
+  url = "https://github.com/enseadaio"
+
+[[menu.footer_social]]
+  weight = 20
+  name = "twitter"
+  pre = "fab fa-twitter"
+  url = "https://twitter.com/enseadaio"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "discord"
+  pre = "fab fa-discord"
+  url = "https://discord.gg/A34Qt8A"
 
 [markup.goldmark.renderer]
 unsafe= true
